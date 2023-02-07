@@ -1,0 +1,60 @@
+.main-nav{
+    display: flex;
+    padding: 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #1c87c9;
+    color: white;
+}
+.main-nav>ul{
+    display: flex;
+
+    flex: 2;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+.main-nav li{
+    margin-right: 1em;
+    cursor: pointer;
+}
+.main-nav>form{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+.main-nav input{
+    flex: 1;
+}
+.main-nav li:hover{
+    background-color: orange;
+    color: rgb(255, 0, 0);
+
+}
+.main-nav button{
+    padding: 0 1rem;
+    margin-left: .3rem;
+    border: 0;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    background-color: white;
+    color: #666666;
+}
+@media screen and(max-width:575px) {
+    .main-nav{
+        flex-direction: column;
+
+    }
+    .main-nav ul{
+        margin-bottom: 1rem;
+    }
+    
+}
+
